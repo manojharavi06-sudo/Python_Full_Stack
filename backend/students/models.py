@@ -8,7 +8,12 @@ class Student(models.Model):
     department =models.CharField(max_length=100)
     def __str__(self):
         return self.name
-#model - Database structure
-#views - Application Logic
-#Template - HTML User Interface
-#URL - connects the browser requests to views
+# #model - Database structure
+# #views - Application Logic
+# #Template - HTML User Interface
+# #URL - connects the browser requests to views
+# #these are the orm operations
+# #retrieve the student by name:
+# #retrieve only the email
+# count total students
+# update the student's age
